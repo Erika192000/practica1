@@ -14,4 +14,22 @@ public static String repeat(String str, int times){
     }
     return result;
 }
+
+
+
+    public static Boolean isEmpty(String str) {
+
+        boolean ejemplo= false;
+
+        if(str == null){
+             ejemplo= true;
+        }else if(str.trim()== ""){
+             ejemplo= true;
+        }else if(!str.isEmpty()&& str!= ""){
+            ejemplo= true;
+        }
+            return ejemplo;
+    }
+
 }
+
